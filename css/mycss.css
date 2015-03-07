@@ -70,3 +70,11 @@ margin-left: 2rem;
 #b-1{
   background-color: black;
 }
+
+.move{
+  margin:130px auto;
+}
+
+.up{
+  margin:-120px;
+}
