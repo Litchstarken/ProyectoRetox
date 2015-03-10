@@ -14,7 +14,7 @@ if(empty($name)||empty($visitor_email))
     echo "Name and email are mandatory!";
     exit;
 }
-
+ 
 if(IsInjected($visitor_email))
 {
     echo "Bad email value!";
@@ -32,7 +32,7 @@ $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
-header('Location: thank-you.html');
+header('Location: Thank_you.html');
 
 
 // Function to validate against any email injection attempts
