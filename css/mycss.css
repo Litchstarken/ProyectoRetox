@@ -181,3 +181,15 @@ text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #E33100,0 0 30px 
 .productPos{
   margin-top: 6rem;
 }
+
+#video1 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  z-index: -10;
+  visibility: visible;
+}
