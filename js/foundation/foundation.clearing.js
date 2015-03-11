@@ -6,7 +6,7 @@
 
     version : '5.5.1',
 
-    settings : {
+    settings : { 
       templates : {
         viewing : '<a href="#" class="clearing-close">&times;</a>' +
           '<div class="visible-img" style="display: none"><div class="clearing-touch-label"></div><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" alt="" />' +
@@ -554,3 +554,14 @@
   };
 
 }(jQuery, window, window.document));
+
+
+$(document).on('click', '.clearing-blackout', function () {
+var container = $('.clearing-container');
+var visible_image = container.find('.visible-img');
+container.find('ul[data-clearing]')
+.attr('style', '').closest('.clearing-blackout')
+.removeClass('clearing-blackout');
+container.removeClass('clearing-container');
+visible_image.fadeOut();
+});

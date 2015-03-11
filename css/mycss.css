@@ -1,21 +1,21 @@
 #section01{
-background: url(../img/bg-03.jpg) 50% 0 no-repeat fixed;
+background: url(../img/bg03.jpg) 50% 0 no-repeat fixed;
 
 }
 
 #section02{
- background: url(../img/bg-02.jpg) 50% 0 no-repeat fixed; 
+ background: url(../img/bg-001.jpg) 50% 0 no-repeat fixed; 
  
 }
 
 #section03{
- background: url(../img/bg02.jpg) 50% 0 no-repeat fixed;
+ background: url(../img/bg-05.jpg) 50% 0 no-repeat fixed;
  
 }
-#section01, #section02, #section03{
+#section01,#section02, #section03{
 
   min-height: 700px;
-  margin:0px auto;
+  margin: 0px auto;
   max-width: 1920px;
   position: relative;
   width: 100%;
@@ -83,12 +83,17 @@ margin-left: 2rem;
   font-family: lora;
   color: white;
 }
+.textoBA3{
+  color: black;
+  font-family: lora;
+}
+
 
 .boxContainer{
   padding: 0.5rem;
   -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
--moz-box-shadow: 0 0 20px rgba(0,0,0,0.4);
--o-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  -o-box-shadow: 0 0 20px rgba(0,0,0,0.4);
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
@@ -117,9 +122,9 @@ header figure
 {
   float: left;   
 }
-header h1 
+header .headerNew h1 
 {
-  font-size: 2.6em;
+  font-size: 2.6rem;
   font-weight: normal;
   margin: 10px 80px 0 0;
   text-align: left;
@@ -182,14 +187,6 @@ text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #E33100,0 0 30px 
   margin-top: 6rem;
 }
 
-#video1 {
-  position: fixed;
-  left: 0;
-  top: 0;
-  min-height: 100%;
-  min-width: 100%;
-  width: auto;
-  height: auto;
-  z-index: -10;
-  visibility: visible;
+.textFont{
+  font-family: lora;
 }
