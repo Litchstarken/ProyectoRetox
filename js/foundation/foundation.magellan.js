@@ -6,7 +6,7 @@
 
     version : '5.5.1',
 
-    settings : {
+    settings : { 
       active_class : 'active',
       threshold : 0, // pixels from the top of the expedition for it to become fixes
       destination_threshold : 20, // pixels from the top of destination for it to be considered active
@@ -201,3 +201,6 @@
     }
   };
 }(jQuery, window, window.document));
+
+
+

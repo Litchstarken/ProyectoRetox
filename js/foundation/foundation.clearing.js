@@ -555,13 +555,14 @@
 
 }(jQuery, window, window.document));
 
-
+/*
 $(document).on('click', '.clearing-blackout', function () {
 var container = $('.clearing-container');
-var visible_image = container.find('.visible-img');
+var visible_image = container.find('clearing-touch-label');
 container.find('ul[data-clearing]')
 .attr('style', '').closest('.clearing-blackout')
 .removeClass('clearing-blackout');
 container.removeClass('clearing-container');
 visible_image.fadeOut();
 });
+*/
