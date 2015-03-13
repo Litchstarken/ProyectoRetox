@@ -91,10 +91,10 @@ margin-left: 2rem;
 
 .boxContainer{
   padding: 0.5rem;
-  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
-  -moz-box-shadow: 0 0 20px rgba(0,0,0,0.4);
-  -o-box-shadow: 0 0 20px rgba(0,0,0,0.4);
-  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 
 .textoBA2{
