@@ -1,15 +1,15 @@
 #section01{
-background: url(../img/bg03.jpg) 50% 0 no-repeat fixed;
+background: url(../img/bg-05.jpg) 50% 0 no-repeat fixed;
 
 }
 
 #section02{
- background: url(../img/bg-001.jpg) 50% 0 no-repeat fixed; 
+ background: url(../img/bg03.jpg) 50% 0 no-repeat fixed; 
  
 }
 
 #section03{
- background: url(../img/bg-05.jpg) 50% 0 no-repeat fixed;
+ background: url(../img/bg-008.jpg) 50% 0 no-repeat fixed;
  
 }
 #section01,#section02, #section03{
@@ -72,7 +72,7 @@ margin-left: 2rem;
 }
 
 .formContainer{
-  background-color: #f5f5f5;
+  background-color: #e2e2e2;
   -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
 -moz-box-shadow: 0 0 20px rgba(0,0,0,0.4);
 -o-box-shadow: 0 0 20px rgba(0,0,0,0.4);
@@ -99,7 +99,7 @@ margin-left: 2rem;
 
 .textoBA2{
   font-family: lora;
-  color: #f5f5f5;
+  color: #000;
   text-align: right;
   font-size: 12px;
 }
@@ -111,7 +111,7 @@ margin-left: 2rem;
 
 .headerNew
 {
-  background: #17373C;
+  background: #008CBA;
   color:white;
   overflow: hidden;
   position: relative;
@@ -127,7 +127,7 @@ header .headerNew h1
   font-size: 2.6rem;
   font-weight: normal;
   margin: 10px 80px 0 0;
-  text-align: left;
+  text-align: center;
   display:inline-block;
   color: white;
   font-family: lora;
