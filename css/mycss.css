@@ -48,6 +48,14 @@ footer
   font-family: lora;
 }
 
+.textoForm2{
+  font-family: lora;
+  color: #686868;
+  text-align: center;
+}
+
+
+
 .titulo_section3{
   text-align: center;
   text-decoration: none;
@@ -79,6 +87,7 @@ margin-left: 2rem;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
 
 }
+
 .textoBA{
   font-family: lora;
   color: white;
