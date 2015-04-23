@@ -140,6 +140,7 @@ header .headerNew h1
   display:inline-block;
   color: white;
   font-family: lora;
+  text-shadow: 2px 3px 3px #e8e8e8;
 }
 
 header #logo
@@ -199,3 +200,6 @@ text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #E33100,0 0 30px 
   font-family: lora;
 }
 
+.magellan-container {
+    text-align: center;
+}
